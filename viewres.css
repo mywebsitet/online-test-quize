@@ -1,0 +1,123 @@
+.result-body{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 18px;
+                height: 900px;
+            }
+            
+            .container-1{
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                background: #175486;
+                height: 15%;
+                width: 100%;
+                /* background-color: #175486; */
+            }
+            .container-1 .home-ico{
+                color: #ffffff; 
+                display: inline-block; 
+                margin-left: 2%; 
+                font-size: 40px;
+                text-decoration: none;
+            }
+            .container-2{
+                position: absolute;
+                left: 0px;
+                top: 15%;
+                background: #021f36;
+                height: 45%;
+                width: 100%;
+            }
+            .container-2 .grid3x2 {
+                position: absolute;
+                top: 5%;
+                left: 30%;
+                height: 50%;
+                width: 40%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                flex-direction: row;
+                color: #ffffff;
+                background: #ffffff;
+            }
+            .container-2 .grid3x2 > div {
+                display: flex; 
+                flex-basis: calc(33%);  
+                justify-content: center;
+                flex-direction: column;
+            }
+.container-2 .grid3x2 > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.container-3{
+    /* font-size: px; */
+    position: absolute;
+    top: 42%;
+    left: 15%;
+    width: 70%;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    height: 600px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+            .container-3 .question-container{
+                position: relative;
+                background-color: whitesmoke;
+                display: block;
+                padding: 10px;
+                margin: 1%;
+                width: 96%;
+                height: auto;
+                border-radius: 5px;
+            }    
+            .container-3 .question-container .content{
+                position: relative;
+                height: auto;
+                width: auto;
+                margin: 5px;
+                padding: 1px;
+            }
+            .container-3 .question-container .seekbar{
+                position: relative;   
+                height: 3px;
+                width: 94%;
+                margin: 3%;
+                border-radius: 3px;
+                background-color: gray;
+ }
+            
+.fs-25{
+    font-size: 20px;
+}
+
+
+.box { 
+    font-size: 15px;
+    background-color: #021f36;
+    text-align: center;
+ }
+.box1 { 
+    font-weight: 900;
+}
+.box2 { 
+    font-weight: 900;
+ }
+.box3 { 
+    font-weight: 900;
+ }
+ .box4 { 
+    font-weight: 900;
+    border-top: 2px solid #ffffff;
+ }
+ .box5 { 
+    font-weight: 900;
+    border-top: 2px solid #ffffff;
+ }
+ .box6 { 
+    font-weight: 900;
+    border-top: 2px solid #ffffff;
+ }

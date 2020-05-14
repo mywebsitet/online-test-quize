@@ -1,0 +1,165 @@
+.body-layout{
+    background-color: #021f36;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.all-container{
+    position: relative;
+    height: 580px;
+    width: 100%;
+}
+
+/*-----------------------------------------------------
+@about us section
+-----------------------------------------------------*/
+.about-background{
+    position: relative;
+    background-image: url(assets/img/s1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.all-container .about-content{
+    position: absolute;
+    height: auto;
+    width: 46%;
+    color: #ffffff;
+    margin-top: 16%;
+    margin-left: 80px;
+    padding: 20px;
+    /*background: red;*/
+}
+.all-container .about-content .texts{
+    margin: 10px;
+    padding: 5px;
+}
+.all-container .about-content p{
+    margin: 10px;
+    padding: 5px;
+    font-weight: 500;
+}
+.all-container .about-content .colr{
+    color: #f01850;
+}
+
+/*-----------------------------------------------------
+@ end - about us section
+-----------------------------------------------------*/
+
+
+/*-----------------------------------------------------
+@ career - section
+-------------------------------------------------------*/
+.grid2x1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+.grid2x1 > div {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-basis: calc(50%);  
+    flex-direction: column;
+  }
+
+.grid2x1 .box-1{
+    background-image: url(assets/img/ps.jpg);
+    background-size: cover;
+}
+.grid2x1 .box-2{
+    background-color: #021f36;
+    height: 580px;
+}
+.grid2x1 .box-2 .career-content{
+    color: #ffffff;
+    margin: 8%;
+    width: 75%;
+    height: auto;
+    margin-left: 12%;
+    /*font-size: 18px;*/
+    /*background: red;*/
+    height: 400px;
+}
+.grid2x1 .box-2 .career-content p{
+    margin-top: 40px;
+    font-size: 19px;
+    font-weight: 100;
+}
+.grid2x1 .box-2 .career-content .careerx{
+    position: relative;
+    margin-top: 15%;
+    font-size: 18px;
+    font-weight: 600;
+}
+.grid2x1 .box-2 .career-content .careerx a{
+    color: #f01850;
+
+}
+
+
+.grid2x1 .box-3{
+    height: 580px;
+    background: blue;
+    background-image: url("assets/img/contact_us.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid2x1 .box-3 .textbox{
+    margin: 20px;
+    margin-top: 50%;
+    /*background: red;*/
+    height: 30%;
+    width: 500px; 
+}
+.grid2x1 .box-3 .textbox table{
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+    /*background: green;*/
+}
+.grid2x1 .box-3 .textbox table tr{
+    margin: 5px;
+    /*background: red;*/
+}
+.grid2x1 .box-3 .textbox table tr td{
+    /*margin: 10px;*/
+    padding: 0px;
+    /*background: blue;*/
+}
+
+.contact-content{
+    margin: 8%;
+    width: 73%;
+    height: auto;
+}
+.contact-content .con-box{
+    margin-top: 20px;
+    height: 45px;
+    width: 100%;
+    border-radius: 3px;
+}
+.contact-content .con-box2{
+    margin-top: 12px;
+    height: 120px;
+    width: 100%;
+}
+.contact-content .con-box3{
+    margin-top: 12px;
+    height: 45px;
+    background-color: #f01850;
+    border-color: #f01850;
+    padding: 10px;
+    width: 180px;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.contact-content .con-box3:hover{
+    background-color: #3d5c7e;
+    border-color: #3d5c7e;
+}
+
+/*------------------------------------------------
+@ end - career section
+-------------------------------------------------*/

@@ -1,0 +1,435 @@
+.bodyx{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #D9e8eb;
+  font-size: 14px;
+  color: rgba(65, 63, 63, 0.995);
+  height: 100vh;
+}
+.navbar{
+  position: absolute;
+  top: 0px;
+  height: 8%;
+  left: 0%;
+  width: 100%;
+  background: #021850;
+}
+.qcontainer{
+  display: inline-block;
+  position: relative;
+  margin-top: 1%;
+  padding: 2px;
+  top: 2%;
+  left: 3%;
+  width: 800px;
+  height: 90vh;
+  /* min-height: 100%; */
+}
+.qcontainer .qsections{
+  position: relative;
+  height: auto;
+  margin-left: 2%;
+  border: 1px solid #2524248e;
+  width: 96.5%;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.qcontainer .qsections .qfield{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 70%;
+} 
+.qcontainer .qsections .qlegend{
+  font-size: 14px; 
+  width: 70px; 
+  text-align: center; 
+  margin-left:15px;
+}
+.qcontainer .qsections .qfield .contents{
+  margin: 10px;
+  padding: 5px;
+  color: black;
+  display: block;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border:2px solid #f01850;
+  font-weight: 600;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.qcontainer .question-container{
+  position: relative;
+  display: block;
+  padding: 2px;
+  margin: 15px;
+  width: 100%;
+  height: 28rem;
+  border-radius: 5px;
+}
+.qcontainer .question-container .scroll-section{
+  overflow-y: scroll;
+  height: 350px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 0px;
+  width: 97%;
+  border: 1px solid #25242496;
+}
+.qcontainer .question-container .content{
+  position: relative;
+  font-size: 10px;
+  margin: 10px;
+  padding: 2px;
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+}
+.qcontainer .question-container .content1{
+  position: relative;
+  height: auto;
+  width: auto;
+  margin: 20px;
+  padding: 1px;
+  border-radius: 5px;
+}
+.times{
+  position: absolute;
+  left: 47%;
+  top: 190px;
+}          
+.qcontainer .question-container .flexs{
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+  width: 97%;
+  margin-bottom: 20px;
+}        
+/* Next and Previous button design */
+.qcontainer .question-container .flexs .prevNext{
+  display: inline-block;
+  background-color: #f01850;
+  position: relative;
+  color: #ffffff;
+  cursor: pointer;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 8px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.qcontainer .question-container .flexs .prevNext:hover{
+   background-color: #021f5c;
+   color: #ffffff;
+}
+.qcontainer .question-container .flexs .m-xz{
+ 
+ background-color: rgb(11, 94, 119);
+}
+.flexible{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: auto;
+  width: 300px;
+  margin-top: 10px;
+}
+.flexible .f-box{
+   height: 35px;
+   width: 35px;
+   text-align: center;
+   margin: 10px;
+   padding: 8px;
+   cursor: pointer;
+   border-radius: 35px;
+   font-weight: bold;
+   color: whitesmoke;
+}
+.flexible .f-box.active{
+border: 2px solid #f01850;
+}
+
+/* Modal */
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  opacity: 0.8;
+}
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+.container {
+  padding: 10px;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+
+/*exam*/
+.exam {
+  border: 0px solid black;
+  margin: 25px 50px 75px 100px;
+  background-color: #e6e6ff;
+  width: 750px;
+  margin-left: 300px;
+}
+.log_button{
+  margin-left: 300px;
+}
+p {
+  font-family: verdana;
+  font-size: 14px;
+  margin-left: 10px;
+}
+ol {
+  background: #e6e6ff;
+  padding: 10px;
+}
+
+ol li {
+  padding: 5px;
+  margin-left: 45px;
+}
+h2{
+  font-size: 26px;
+  margin-left:430px;
+  font-weight: bold;
+}
+.button2{
+  background-color: red;
+  width: 200px;
+  height: 40px;
+}
+.new4 {
+  border: 4px solid #021f36;
+}
+.finish .finish-test{
+  position: relative;
+  margin-top: 15px;
+  margin: 5px;
+  display: inline-block;
+  background-color: #f01850;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 16px;
+}
+.finish .finish-test:hover{
+  background-color: #021f36;
+}
+
+
+.noti-con{
+position: relative;
+width: 100%;
+margin-top: 40%;
+
+}
+.noti-con .sekbar{
+position: relative;
+height: 3px;
+background-color: rgb(173, 162, 162);
+width: 90%;
+margin-left: 5%;
+}
+.noti-con .flex-con{
+margin-top: 10px;
+display: flex;
+justify-content: start;
+flex-wrap: wrap;
+width: 300px;
+}
+.noti-con .flex-con .fl-box{
+width: 140px;
+height: 40px;
+margin: 5px;
+display: flex;
+text-align: center;
+}
+.noti-con .flex-con .last{
+width: 100%;
+}
+.noti-con .flex-con .fl-box .mark-box{
+margin-top: 3px;
+width: 35px;
+height: 35px;
+border-radius: 35px;
+}
+.noti-con .flex-con .fl-box .ans{
+background-color: green;
+}
+.noti-con .flex-con .fl-box .ans1{
+background-color: red; 
+}
+.noti-con .flex-con .fl-box .ans2{
+background-color: blue;
+}
+.noti-con .flex-con .fl-box .ans3{
+background-color: grey;
+}
+.noti-con .flex-con .fl-box .ans4{
+background-color: green;
+border: 2px solid blue;
+}
+.noti-con .flex-con .fl-box .ptop{
+padding-top: 10px;
+font-weight: 600;
+font-size: 12px;
+padding-left: 2px;
+}
+.answered{
+  background-color: green;
+}
+.notAnswered{
+  background-color: red;
+}
+.marked{
+  background-color: blue;
+}
+.markedAnswered{
+  background-color: green;
+  border: 3px solid blue;
+}
+.notVisited{
+  background-color: grey;
+}
+  
+.test{
+  height: auto;
+  font-size: 18px; 
+  text-align:center;
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+/* For mobile */
+@media screen and (max-width: 600px){
+  .mobx{
+    width: 98%;
+    height: auto;
+  } 
+  .qcontainer{
+    width: 100%;
+    margin: 0px;
+    top: 0px;
+    height: auto;
+  }
+  .qcontainer .qsections{
+    width: 94%;
+    margin: 0px;
+    margin-left: 0px ;
+  }
+  .qcontainer .question-container{
+    width: 97%;
+    margin: 0px;
+  }
+  .times{
+    position: absolute;
+    top: 290px;
+    font-size: 12px;
+  }
+  .qcontainer .question-container.flexs{
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .qcontainer .question-container .flexs .prevNext{
+    position: relative;
+    margin: 10px;
+    height: 40px;
+    padding-top: 5px;
+  }
+  .flexible{
+    margin-top: 100px;
+  }
+  .finish .finish-test{
+    position: relative;
+    width: 100%;
+    padding: 0px;
+  }
+
+}
